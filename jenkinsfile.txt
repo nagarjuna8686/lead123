@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Compile Stage') {
+            steps {
+                  withAnt(ant :'ant_1_10_2') {
+                      sh 'ant compile'
+                  }
+            }
+        }
+        stage ('jar stage') {
+        steps {
+            withAnt (ant :'ant_1_10_2') {
+                sh 'ant jar'
+            }
+            
+        }
+    }
+    stage ('war stage') {
+    steps {
+        withAnt (ant :'ant_1_10_2') {
+            sh 'ant war'
+        }
+    }
+}
+
+}
+
+}
