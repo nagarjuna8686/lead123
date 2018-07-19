@@ -11,9 +11,7 @@
 
 - name: Start Tomcat
   command: nohup /opt/apache-tomcat-7.0.90/bin/startup.sh
-  become: true
-  become_user: tomcat
-
+  
 - name: restarting tomcat
   raw: nohup /opt/apache-tomcat-7.0.90/bin/shutdown.sh
 
