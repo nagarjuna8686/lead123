@@ -1,5 +1,5 @@
 ---
-- hosts: 18.188.7.140
+- hosts: 18.222.165.19
   user: ubuntu
   sudo: yes
   roles:
