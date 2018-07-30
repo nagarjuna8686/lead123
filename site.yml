@@ -1,6 +1,5 @@
 ---
 - hosts: 18.222.165.19
   user: ubuntu
-  sudo: yes
   roles:
      - role: java
