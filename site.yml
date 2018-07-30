@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 18.188.7.140
   user: ubuntu
   sudo: yes
   roles:
