@@ -1,5 +1,5 @@
 ---
-- hosts: 13.58.180.98
+- hosts: web
   user: ubuntu
   sudo: yes
   roles:
