@@ -1,6 +1,6 @@
 ---
 - hosts: 192.168.33.6
-  user: vagrant
+  user: root
   sudo: yes
   roles:
      - role: tomcat
