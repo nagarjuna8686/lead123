@@ -3,4 +3,4 @@
   user: vagrant
   sudo: yes
   roles:
-     - role: java
+     - role: tomcat
